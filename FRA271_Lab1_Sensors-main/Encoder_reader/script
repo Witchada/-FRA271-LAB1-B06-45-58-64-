@@ -1,0 +1,10 @@
+config load "C:\FIBO\LAB senser RMX\FRA271_Lab1_Sensors-main\FRA271_Lab1_Sensors-main\Encoder_reader\Encoder_reader.ioc"
+project toolchain STM32CubeIDE
+
+SetStructure Advanced
+
+project setCustomFWPath "C:\Users\witch\STM32Cube\Repository\STM32Cube_FW_G4_V1.6.0"
+
+project generate 
+
+exit wait
